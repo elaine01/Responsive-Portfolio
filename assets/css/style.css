@@ -1,0 +1,281 @@
+
+body {
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 18px;
+	background-image: url("../images/bg_image.png");
+}
+
+#container {
+	line-height: 35px;
+	color: #777777;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin-bottom: 100px;
+}
+#navBar {
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	overflow: auto;
+}	
+#navContent {
+	width: 960px;
+	background-color: blue;
+	margin-left: auto;
+	margin-right: auto;
+}
+header, h1, h2 {
+	font-family: Georgia, Times, Times New Roman, serif;
+}
+header, h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 22px;
+	font-weight: bold;
+}
+header {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 30px;
+	float: left;
+}
+nav {
+	float: right;
+	margin-top: 25px;
+}
+article {
+	clear: both;
+}
+a {
+	color: #aaaaaa;
+	text-decoration: none;
+}
+
+a:visited { color: #4aaaa5; }
+a:hover { color: #669b98; }
+a:active { color: #777777; }
+
+.about, .portfolio.nav {
+	padding-left: 15px;
+	padding-right: 15px;	
+}
+.contact {
+	padding-left: 10px;
+}
+.portfolio {
+	border-left: 1px solid #d6d6d6;
+	border-right: 1px solid #d6d6d6;
+}
+h1, h2, h3 {
+	color: #4aaaa5;
+}
+#mainContent, aside {
+	padding: 30px 30px 35px 30px;
+	background-color: #ffffff;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#mainContent {
+	float:left;
+	width: 590px;
+}
+.articleImg {
+	width: 200px;
+	height: 150px;
+}
+aside {
+	float:right;
+	width: 210px;
+}
+.contentTitle {
+	clear:both;
+	padding-bottom: 30px;
+	border-bottom: 3px solid #d6d6d6;
+}
+.articleImg {
+	padding: 30px 25px 0 0;
+	float: left;
+}
+.articleText {
+	padding-top: 20px;
+}
+#connectWithMe {
+	clear:both;
+	padding-bottom: 10px;
+}
+.logo {
+	padding-top: 20px;
+	border-top: 1px solid #d6d6d6;
+}
+.socialMedia {
+	opacity: .6;
+}
+.socialMedia:hover {
+	opacity: 1;
+}
+#linkedin {
+	padding: 0 8px 0 8px;
+}
+#stackoverflow {
+	margin-right: 0;
+}
+footer {
+	background-color: #666666;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-top: 8px solid #4aaaa5;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	bottom: 0;
+/*	margin-bottom: 100px;*/
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.hangman, .rpg {
+	margin-top: 40px;
+}
+figcaption {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: Georgia, Times, Times New Roman, serif;
+	font-size: 22px;
+	text-align: center;
+	padding: 15px 0 15px 0;
+	position: absolute;
+	bottom: 22px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.gallery {
+	position: relative;
+	opacity: .6;
+}
+.gallery:hover {
+	opacity: 1;
+}
+#row1, #row2 {
+	overflow:auto;
+	margin-bottom: 45px;
+}
+.name {
+	margin-top: 50px;
+}
+input {
+	width: 566px;
+	font-size: 14px;
+	padding: 10px; 
+	margin-bottom: 15px;
+}
+label {
+	margin-top: 50px;
+}
+textarea {
+	height: 200px;
+	width: 584px;
+	border: 1px solid #cccccc;
+}
+#submitButton {
+	background-color: #4aaaa5;
+	font-size: 18px;
+	color: #ffffff;
+	margin-top: 10px;
+	width: 110px;
+}
+#submitButton:hover {
+	background-color: #409691;
+}
+form {
+	padding-top: 20px;
+}
+
+/* (Desktop) 769 ~ 980px width */
+@media screen and (max-width: 980px) {
+	#navContent {
+		width: 725px;
+	}
+	#container {
+		width: 725px;
+	}
+	#mainContent {
+		width: 355px;
+	}
+	.articleImg {
+		width: 355px;
+		height: 266.25px;
+		margin-bottom: 20px;
+	}
+}
+
+/* (Tablet) 641 ~ 768px width */
+@media screen and (max-width: 768px) {
+	
+	#mainContent {
+		width: 665px;
+	}
+	.articleImg {
+		width: 333.33px;
+		height: 250px;
+	}
+	aside {
+		width: 665px;
+	}
+}
+
+/* (Phone) Up to 640px width */
+@media screen and (max-width: 640px) {
+
+	header {
+		width: 640px;
+		text-align: center;
+		padding: 25px 0 25px 0;
+	}
+	nav {
+		width: 640px;
+		text-align: center;
+		padding: 100px 0 25px 0;
+		margin-top: 0;
+		float: none;
+		background-color: #ffffff;
+	}
+	.nav.about, .nav.portfolio, .nav.contact {
+		padding: 0 70px 0 70px;
+	}
+	#container {
+		width: 600px;
+	}
+	#mainContent {
+		width: 540px;
+	}
+	.articleImg {
+		width: 533.33px;
+		height: 400px;
+	}
+	aside {
+		width: 540px;
+		margin-top: 0;
+		padding: 20px 30px 20px 30px;
+	}
+}
+
+
+
+
+
+
+
+
