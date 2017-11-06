@@ -87,6 +87,10 @@ h1, h2, h3 {
 	width: 200px;
 	height: 150px;
 }
+.gallery img {
+	width: 270px;
+	height: 200px;
+}
 aside {
 	float:right;
 	width: 210px;
@@ -219,6 +223,16 @@ form {
 		height: 266.25px;
 		margin-bottom: 20px;
 	}
+	.gallery img {
+		width: 351px;
+		height: 260px;
+	}
+	input {
+		width: 331px;
+	}
+	textarea {
+		width: 349px;
+	}
 }
 
 /* (Tablet) 641 ~ 768px width */
@@ -226,10 +240,21 @@ form {
 	
 	#mainContent {
 		width: 665px;
+		margin-bottom: 0;
 	}
 	.articleImg {
 		width: 333.33px;
 		height: 250px;
+	}
+	.gallery img {
+		width: 310px;
+		height: 235px;
+	}
+	input {
+		width: 641px;
+	}
+	textarea {
+		width: 659px;
 	}
 	aside {
 		width: 665px;
@@ -265,9 +290,19 @@ form {
 		width: 533.33px;
 		height: 400px;
 	}
+	.gallery img {
+		width: 540px;
+		height: 400px;
+	}
+	input {
+		width: 516px;
+	}
+	textarea {
+		width: 534px;
+	}
 	aside {
 		width: 540px;
-		margin-top: 0;
+		margin-top: 40px;
 		padding: 20px 30px 20px 30px;
 	}
 }
