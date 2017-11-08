@@ -253,15 +253,15 @@ textarea {
 #mainContent {
 	float: none;
 	width: 90%;
+	overflow-y: auto;
 }
 .articleImg {
 	width: 50%;
 	height: 50%;
 }
-.gallery.left, .gallery.right, .image.hangman,
-.image.rpg, .image.trivia, .image.rutgers, .image.rock {
-	width: 50%
-	height: 50%;
+.gallery.left, .gallery.right, .gallery img{
+	width: 48%;
+	height: 48%;
 	/* need to fix this part*/
 }
 
@@ -316,9 +316,8 @@ nav {
 	width: 100%;
 	height: 100%;
 }
-.gallery.left, .gallery.right, .image.hangman,
-.image.rpg, .image.trivia, .image.rutgers, .image.rock {
-	width: 100%
+.gallery.left, .gallery.right, .gallery img{
+	width: 100%;
 	height: 100%;
 }
 input {
