@@ -209,107 +209,130 @@ form {
 
 /* (Desktop) 769 ~ 980px width */
 @media screen and (max-width: 980px) {
-	#navContent {
-		width: 725px;
-	}
-	#container {
-		width: 725px;
-	}
-	#mainContent {
-		width: 355px;
-	}
-	.articleImg {
-		width: 355px;
-		height: 266.25px;
-		margin-bottom: 20px;
-	}
-	.gallery img {
-		width: 351px;
-		height: 260px;
-	}
-	input {
-		width: 331px;
-	}
-	textarea {
-		width: 349px;
-	}
+
+#navContent {
+	width: 725px;
 }
+#container {
+	width: 725px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#mainContent {
+	width: 50%;
+}
+.articleImg {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 25px;
+}
+.gallery.left, .gallery.right, .image.hangman,
+.image.rpg, .image.trivia, .image.rutgers, .image.rock {
+	width: 100%;
+	height: 100%;
+}
+input {
+	width: 93.38%;
+}
+textarea {
+	width: 98.348%;
+}
+
+}
+
 
 /* (Tablet) 641 ~ 768px width */
 @media screen and (max-width: 768px) {
-	
-	#mainContent {
-		width: 665px;
-		margin-bottom: 0;
-	}
-	.articleImg {
-		width: 333.33px;
-		height: 250px;
-	}
-	.gallery img {
-		width: 310px;
-		height: 235px;
-	}
-	input {
-		width: 641px;
-	}
-	textarea {
-		width: 659px;
-	}
-	aside {
-		width: 665px;
-	}
+
+#navContent {
+	width: 725px;
 }
+#container {
+	width: 725px;
+}
+#mainContent {
+	float: none;
+	width: 90%;
+}
+.articleImg {
+	width: 50%;
+	height: 50%;
+}
+.gallery.left, .gallery.right, .image.hangman,
+.image.rpg, .image.trivia, .image.rutgers, .image.rock {
+	width: 50%
+	height: 50%;
+	/* need to fix this part*/
+}
+
+input {
+	width: 96.324%;
+}
+textarea {
+	width: 99.082%;
+}
+
+aside {
+	float: none;
+	width: 90%;
+}
+
+
+}
+
 
 /* (Phone) Up to 640px width */
 @media screen and (max-width: 640px) {
 
-/*	#navBar {
-		position: fixed;
-		margin-bottom: 40px;
-	}*/
-	header {
-		width: 640px;
-		text-align: center;
-		padding: 25px 0 25px 0;
-	}
-	nav {
-		width: 640px;
-		text-align: center;
-		padding: 100px 0 25px 0;
-		margin-top: 0;
-		float: none;
-		background-color: #ffffff;
-	}
-	.nav.about, .nav.portfolio, .nav.contact {
-		padding: 0 70px 0 70px;
-	}
-	#container {
-		width: 600px;
-	}
-	#mainContent {
-		width: 540px;
-	}
-	.articleImg {
-		width: 533.33px;
-		height: 400px;
-	}
-	.gallery img {
-		width: 540px;
-		height: 400px;
-	}
-	input {
-		width: 516px;
-	}
-	textarea {
-		width: 534px;
-	}
-	aside {
-		width: 540px;
-		margin-top: 40px;
-		padding: 20px 30px 20px 30px;
-	}
+#navContent {
+	margin: 0;
+	width: 100%;
 }
+
+header {
+	width: 100%;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+nav {
+	width: 100%;
+	margin-top: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.nav.about, .nav.portfolio, .nav.contact {
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+
+}
+#container {
+	width: 600px;
+}
+.articleImg {
+	width: 100%;
+	height: 100%;
+}
+.gallery.left, .gallery.right, .image.hangman,
+.image.rpg, .image.trivia, .image.rutgers, .image.rock {
+	width: 100%
+	height: 100%;
+}
+input {
+	width: 95.558%;
+}
+textarea {
+	width: 98.89%;
+}
+
+}
+
+
+
+
 
 
 
