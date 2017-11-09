@@ -14,11 +14,16 @@ body {
 	overflow-x: hidden;
 	overflow-y: auto;
 	margin-bottom: 100px;
+	margin-top: 90px;
 }
 #navBar {
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
 	overflow: auto;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
 }	
 #navContent {
 	width: 960px;
@@ -226,8 +231,7 @@ form {
 	height: 100%;
 	margin-bottom: 25px;
 }
-.gallery.left, .gallery.right, .image.hangman,
-.image.rpg, .image.trivia, .image.rutgers, .image.rock {
+.gallery.left, .gallery.right, .gallery img{
 	width: 100%;
 	height: 100%;
 }
@@ -256,22 +260,23 @@ textarea {
 	overflow-y: auto;
 }
 .articleImg {
-	width: 50%;
-	height: 50%;
+	width: 100%;
+	height: 100%;
 }
 .gallery.left, .gallery.right, .gallery img{
 	width: 48%;
 	height: 48%;
-	/* need to fix this part*/
 }
-
+.gallery.image {
+	width: 100%;
+	height: 100%;
+}
 input {
 	width: 96.324%;
 }
 textarea {
 	width: 99.082%;
 }
-
 aside {
 	float: none;
 	width: 90%;
@@ -287,6 +292,9 @@ aside {
 #navContent {
 	margin: 0;
 	width: 100%;
+}
+#navBar {
+	position: unset;
 }
 
 header {
@@ -311,6 +319,7 @@ nav {
 }
 #container {
 	width: 600px;
+	margin-top: 0;
 }
 .articleImg {
 	width: 100%;
